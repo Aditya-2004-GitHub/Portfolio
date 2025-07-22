@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Hedau - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link" data-target="home">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" data-target="about">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link" data-target="skills">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link" data-target="projects">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-target="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hi, I'm</span>
+                    <span class="hero-name">Aditya Hedau</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typewriter" id="typewriter"></span>
+                </div>
+                <p class="hero-description">
+                    I build exceptional digital experiences with modern technologies, creating robust and scalable web
+                    applications that make a difference.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn--primary" data-scroll-to="projects">View My Work</button>
+                    <button class="btn btn--outline" data-scroll-to="contact">Get In Touch</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-content">
+                        <span class="card-icon">🚀</span>
+                        <span class="card-text">Innovation</span>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-content">
+                        <span class="card-icon">⚡</span>
+                        <span class="card-text">Performance</span>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-content">
+                        <span class="card-icon">🎨</span>
+                        <span class="card-text">Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-card glass-card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="profile-avatar">
+                            <span class="avatar-text">AH</span>
+                        </div>
+                        <h3>Full Stack Developer</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>I'm a passionate software developer skilled in Angular, Node.js, Express, MongoDB, HTML, CSS,
+                            Bootstrap, and API testing with Postman. I build robust, scalable and stylish web
+                            applications with expertise in hosting, domain management, and deployment.</p>
+                        <div class="expertise-tags">
+                            <span class="tag">Angular Expert</span>
+                            <span class="tag">Backend Developer</span>
+                            <span class="tag">UI/UX Enthusiast</span>
+                            <span class="tag">DevOps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card animate-on-scroll" data-delay="0">
+                    <div class="skill-icon">🎨</div>
+                    <h3>HTML/CSS/Bootstrap</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="95"></div>
+                    </div>
+                    <span class="progress-text">95%</span>
+                </div>
+                <div class="skill-card glass-card animate-on-scroll" data-delay="100">
+                    <div class="skill-icon">🅰️</div>
+                    <h3>Angular</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="90"></div>
+                    </div>
+                    <span class="progress-text">90%</span>
+                </div>
+                <div class="skill-card glass-card animate-on-scroll" data-delay="200">
+                    <div class="skill-icon">🟢</div>
+                    <h3>Node.js & Express</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="85"></div>
+                    </div>
+                    <span class="progress-text">85%</span>
+                </div>
+                <div class="skill-card glass-card animate-on-scroll" data-delay="300">
+                    <div class="skill-icon">🍃</div>
+                    <h3>MongoDB</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="80"></div>
+                    </div>
+                    <span class="progress-text">80%</span>
+                </div>
+                <div class="skill-card glass-card animate-on-scroll" data-delay="400">
+                    <div class="skill-icon">📡</div>
+                    <h3>Postman/APIs</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="75"></div>
+                    </div>
+                    <span class="progress-text">75%</span>
+                </div>
+                <div class="skill-card glass-card animate-on-scroll" data-delay="500">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Domain & Hosting</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="85"></div>
+                    </div>
+                    <span class="progress-text">85%</span>
+                </div>
+                <div class="skill-card glass-card animate-on-scroll" data-delay="500">
+                    <div class="skill-icon">⚛️</div> <!-- React logo emoji -->
+                    <h3>React.js</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="50"></div>
+                    </div>
+                    <span class="progress-text">50%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll" data-delay="0">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop"
+                                    alt="Digital Marketing Agency Platform">
+                            </div>
+                            <div class="project-content">
+                                <h3>Three Brothers Promotion</h3>
+                                <p>Full-service digital marketing agency with comprehensive solutions</p>
+                            </div>
+                        </div>
+                        <div class="project-card-back">
+                            <div class="project-details">
+                                <h3>Three Brothers Promotion</h3>
+                                <p>Full-service digital agency providing SEO, web development, social media, and
+                                    e-commerce solutions. Serving 115+ clients with 2+ years experience.
+                                </p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">HTML/CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Node.js</span>
+                                </div>
+                                <button class="btn btn--primary"
+                                    onclick="window.open('https://www.threebrotherspromotion.in/')">View
+                                    Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card animate-on-scroll" data-delay="100">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop"
+                                    alt="Task Management App">
+                            </div>
+                            <div class="project-content">
+                                <h3>Task Management App</h3>
+                                <p>Responsive task management with real-time updates</p>
+                            </div>
+                        </div>
+                        <div class="project-card-back">
+                            <div class="project-details">
+                                <h3>Task Management App</h3>
+                                <p>Responsive task management application with real-time updates, drag-and-drop
+                                    functionality, and team collaboration features.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Angular</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">Socket.io</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                </div>
+                                <button class="btn btn--primary">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll" data-delay="200">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop"
+                                    alt="Portfolio Website">
+                            </div>
+                            <div class="project-content">
+                                <h3>Portfolio Website</h3>
+                                <p>Modern, animated portfolio with Angular 19</p>
+                            </div>
+                        </div>
+                        <div class="project-card-back">
+                            <div class="project-details">
+                                <h3>Portfolio Website</h3>
+                                <p>Modern, animated portfolio website built with Angular 19 featuring smooth animations,
+                                    responsive design, and contact form integration.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Angular 19</span>
+                                    <span class="tech-tag">CSS Animations</span>
+                                    <span class="tech-tag">Node.js</span>
+                                </div>
+                                <button class="btn btn--primary">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card animate-on-scroll" data-delay="300">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1486312338219-ce68e2c6b7b4?w=400&h=250&fit=crop"
+                                    alt="Blog CMS">
+                            </div>
+                            <div class="project-content">
+                                <h3>Blog CMS</h3>
+                                <p>Content Management System with rich editor</p>
+                            </div>
+                        </div>
+                        <div class="project-card-back">
+                            <div class="project-details">
+                                <h3>Blog CMS</h3>
+                                <p>Content Management System for blogs with rich text editor, media management, and SEO
+                                    optimization features.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Angular</span>
+                                    <span class="tech-tag">Express</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">Cloudinary</span>
+                                </div>
+                                <button class="btn btn--primary">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card glass-card animate-on-scroll" data-delay="0">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>adityahedau293@gmail.com</p>
+                    </div>
+                    <div class="contact-card glass-card animate-on-scroll" data-delay="100">
+                        <div class="contact-icon">📱</div>
+                        <h3>Phone</h3>
+                        <p>+91 9561700261</p>
+                    </div>
+                    <div class="contact-card glass-card animate-on-scroll" data-delay="200">
+                        <div class="contact-icon">📍</div>
+                        <h3>Location</h3>
+                        <p>Nagpur, India</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form glass-card animate-on-scroll" id="contactForm" data-delay="300">
+                        <h3>Send Message</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-control" required>
+                            <label for="name" class="form-label">Full Name</label>
+                            <div class="form-error" id="nameError"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-control" required>
+                            <label for="email" class="form-label">Email Address</label>
+                            <div class="form-error" id="emailError"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="query" name="query" class="form-control" rows="5" required></textarea>
+                            <label for="query" class="form-label">Message</label>
+                            <div class="form-error" id="messageError"></div>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading hidden">Sending...</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Aditya Hedau. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" class="social-link">GitHub</a>
+                    <a href="#" target="_blank" class="social-link">LinkedIn</a>
+                    <!-- <a href="#" target="_blank" class="social-link">Twitter</a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
