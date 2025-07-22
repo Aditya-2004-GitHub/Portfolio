@@ -311,7 +311,7 @@ function setupContactForm() {
             query: messageInput.value.trim()
         };
 
-        fetch("http://localhost:5400/send-mail", {
+        fetch("https://portfolio-n5zs.onrender.com/send-mail", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -617,3 +617,5 @@ function setupAccessibility() {
 
 // Initialize accessibility features
 document.addEventListener('DOMContentLoaded', setupAccessibility);
+
+// mongodb+srv://adityahedau293:Aditya123@cluster0.kdbgd.mongodb.net/ClinicWorld
