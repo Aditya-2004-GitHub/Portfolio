@@ -22,11 +22,13 @@ app.post("/send-mail", async (req, res) => {
         to: "adityahedau293@gmail.com",
         subject: "📨 New Query from Footer",
         text: `
-You received a new query from the portfolio contact form:
+You have received a new message via your portfolio site’s contact form:
 
-👤 Name: ${name}
-📧 Email: ${email}
-💬 Message: ${query}
+Name   : ${name}
+Email  : ${email}
+Message: ${query}
+
+Please follow up at your earliest convenience.
         `,
     };
 
