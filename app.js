@@ -20,7 +20,7 @@ function setupTypewriterEffect() {
     const typewriterElement = document.querySelector('.typewriter');
     if (!typewriterElement) return;
 
-    const texts = ['Full Stack Developer', 'Web Developer', 'Software Engineer', 'Angular Expert'];
+    const texts = ['Full Stack Developer', 'Python Developer', 'Software Engineer', 'Angular Expert', 'Backend Expert'];
     let currentTextIndex = 0;
     let currentCharIndex = 0;
     let isDeleting = false;
@@ -615,7 +615,20 @@ function setupAccessibility() {
     });
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Attach click listeners to all buttons with data-scroll-to
+    document.querySelectorAll('[data-scroll-to]').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const targetId = btn.getAttribute('data-scroll-to');
+            const targetEl = document.getElementById(targetId);
+            if (targetEl) {
+                targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else {
+                console.warn(`No element with ID "${targetId}" found.`);
+            }
+        });
+    });
+});
+
 // Initialize accessibility features
 document.addEventListener('DOMContentLoaded', setupAccessibility);
-
-// mongodb+srv://adityahedau293:Aditya123@cluster0.kdbgd.mongodb.net/ClinicWorld
