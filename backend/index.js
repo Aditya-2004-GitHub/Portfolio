@@ -20,7 +20,7 @@ app.post("/send-mail", async (req, res) => {
     const mailOptions = {
         from: `"${name}" <${email}>`,
         to: "adityahedau293@gmail.com",
-        subject: "📨 New Query from Footer",
+        subject: "📨 New Query from your Portfolio",
         text: `
 You have received a new message via your portfolio site’s contact form:
 
